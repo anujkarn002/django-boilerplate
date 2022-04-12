@@ -1,0 +1,38 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+amqp = "2.4.2"
+billiard = "3.5.0.5"
+boto3 = "*"
+celery = "4.4.6"
+channels = "3.0.4"
+daphne = "3.0.2"
+django = "*"
+djangorestframework = "*"
+django-celery-beat = "*"
+django-cors-headers = "*"
+django-filter = "*"
+django-storages = "*"
+drf-nested-routers = "*"
+drf-yasg = "*"
+djangorestframework-camel-case = "*"
+envparse = "0.2.0"
+gunicorn = "19.9.0"
+kombu = "4.6.10"
+psycopg2-binary = "*"
+psycopg2 = "*"
+pytz = "2018.9"
+model-mommy = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+django-extensions = "*"
+redis = "3.2.1"
+vine = "1.2.0"
+
+[requires]
+python_version = "3.8"

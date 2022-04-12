@@ -1,0 +1,13 @@
+{% autoescape off %}
+To verify your {{ email }} account,
+use the below code:
+
+Your code is: {{ code }}.
+
+The code will expire in 24 hours.
+
+Do not share this code with anyone, not even anyone from us.
+
+Sincerely,
+Management
+{% endautoescape %}
